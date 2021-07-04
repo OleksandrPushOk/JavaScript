@@ -24,7 +24,7 @@
 
 // function add(a, b, c) {
 //     return a + b + c;
-   
+
 // }
 //     add(2, 5, 8);
 
@@ -42,7 +42,7 @@
 //   return message;
 // };
 
- 
+
 //  function makeOrderMessage(orderedQuantity, pricePerDroid, deliveryFee) {
 //   // Change code below this line
 //   let coast= orderedQuantity  *pricePerDroid + deliveryFee;
@@ -55,7 +55,7 @@
 //   // Change code below this line
 //   const passed = age >= 18;
 //   console.log(passed)
- 
+
 //   // Change code above this line
 //   return passed;
 // }
@@ -73,7 +73,7 @@
 
 // function checkAge(age) {
 //   age >= 18;
-  
+
 //   if (age >= 18) { // Change this line
 //     message = 'You are an adult';
 //   } else {
@@ -256,11 +256,11 @@
 //      case Chile: 
 //          message = `Shipping to ${Chile} will cost ${250} credits`; 
 //         break;
-     
+
 //       case Australia: 
 //          message = `Shipping to ${Australia} will cost ${170} credits`; 
 //         break;
-     
+
 //       case Jamaica: 
 //          message = `Shipping to ${Jamaica} will cost ${120} credits`; 
 //         break;
@@ -269,7 +269,7 @@
 //         message = "Sorry, there is no delivery to your country";
 //         break;
 //     }
-  
+
 //   // Change code above this line
 //   return message;
 // }
@@ -289,12 +289,12 @@
 //       price = 250;
 //          message = `Shipping to ${country} will cost ${price} credits`; 
 //         break;
-     
+
 //       case "Australia":
 //       price = 170;
 //          message = `Shipping to ${country} will cost ${price} credits`; 
 //         break;
-     
+
 //       case "Jamaica":
 //       price = 120;
 //          message = `Shipping to ${country} will cost ${price} credits`; 
@@ -304,7 +304,7 @@
 //         message = "Sorry, there is no delivery to your country";
 //         break;
 //     }
-  
+
 //   // Change code above this line
 //   return message;
 // }
@@ -397,7 +397,7 @@
 
 //   if (ordered === 0) {
 //     return "Your order is empty!";
-    
+
 //   }if (ordered > available) {
 //     return "Your order is too large, not enough goods in stock!";
 //   } 
@@ -572,7 +572,7 @@
 
 
 // function createArrayOfNumbers(min, max) {
- 
+
 //   const numbers = [];
 //   for(let i = min; i <= max; i +=1)
 //    numbers.push(i) 
@@ -599,7 +599,7 @@
 //   const fruits = ["apple", "plum", "pear", "orange"]; 
 //   return fruits.includes(fruit);
 // }
-  
+
 
 
 
@@ -617,7 +617,7 @@
 // console.log(getCommonElements([24, 12, 27, 3], [12, 8, 3, 36, 27]));
 // console.log(getCommonElements([10, 20, 30, 40], [4, 30, 17, 10, 40]));
 // console.log(getCommonElements([1, 2, 3], [10, 20, 30]));
-  
+
 
 
 
@@ -705,6 +705,692 @@
 //   }
 //   return false; 
 // }
+
+
+
+// Module-3//
+
+
+// const apartment = {
+// imgUrl: "https://via.placeholder.com/640x480",
+// descr: "Spacious apartment in the city center",
+// rating: 4,
+// price: 2153,
+// tags: ["premium", "promoted", "top"]
+// };
+
+
+
+
+// const apartment = {
+//   owner: {
+// name: "Henry",
+// phone: "982-126-1588",
+// email: "henry.carter@aptmail.com" 
+// },
+//     imgUrl: 'https://via.placeholder.com/640x480',
+//     descr: 'Spacious apartment in the city center',
+//     rating: 4,
+//     price: 2153,
+//     tags: ['premium', 'promoted', 'top'],
+//   };
+
+
+
+
+// const apartment = {
+//   imgUrl: "https://via.placeholder.com/640x480",
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+//   tags: ["premium", "promoted", "top"],
+// };
+// const aptRating = apartment.rating;
+// const aptDescr = apartment.descr;
+// const aptPrice = apartment.price;
+// const aptTags = apartment.tags;
+
+
+
+
+// const apartment = {
+//   imgUrl: "https://via.placeholder.com/640x480",
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+//   tags: ["premium", "promoted", "top"],
+//   owner: {
+//     name: "Henry",
+//     phone: "982-126-1588",
+//     email: "henry.carter@aptmail.com",
+//   },
+// };
+// const ownerName = apartment.owner.name;
+// const ownerPhone = apartment.owner.phone;
+// const ownerEmail = apartment.owner.email;
+// const numberOfTags = apartment.tags.length;
+// const firstTag = apartment.tags[0];
+// const lastTag = apartment.tags[2];
+
+
+
+
+// const apartment = {
+//   imgUrl: "https://via.placeholder.com/640x480",
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+//   tags: ["premium", "promoted", "top"],
+// };
+
+// const aptRating = apartment["rating"];
+// const aptDescr = apartment["descr"];
+// const aptPrice = apartment["price"];
+// const aptTags = apartment["tags"]
+
+
+
+
+// const apartment = {
+//   imgUrl: "https://via.placeholder.com/640x480",
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+//   tags: ["premium", "promoted", "top"],
+//   owner: {
+//     name: "Henry",
+//     phone: "982-126-1588",
+//     email: "henry.carter@aptmail.com",
+//   },
+// };
+// apartment.price = 5000;
+// apartment.rating = 4.7;
+// apartment.owner.name = "Henry Sibola";
+// apartment.tags.push("trusted");
+
+
+
+
+// const apartment = {
+//   imgUrl: "https://via.placeholder.com/640x480",
+//   descr: "Spacious apartment in the city center",
+//   rating: 4.7,
+//   price: 5000,
+//   tags: ["premium", "promoted", "top", "trusted"],
+//   owner: {
+//     name: "Henry Sibola",
+//     phone: "982-126-1588",
+//     email: "henry.carter@aptmail.com",
+//   },
+// };
+// apartment.area = 60;
+// apartment.rooms = 3;
+// apartment.location = {
+//   country:"Jamaica",
+//   city:"Kingston",
+// }
+
+
+
+
+// const name = 'Repair Droid';
+// const price = 2500;
+// const image = 'https://via.placeholder.com/640x480';
+// const tags = ['on sale', 'trending', 'best buy'];
+
+// const product = {
+// name,
+// price,
+// image,
+// tags 
+// };
+
+
+
+
+// const emailInputName = 'email';
+// const passwordInputName = 'password';
+
+// const credentials = {
+// [emailInputName]:"henry.carter@aptmail.com",
+// [passwordInputName]:"jqueryismyjam"
+// };
+
+
+
+
+// const apartment = {
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+// };
+// const keys = ['descr', 'rating', 'price'];
+// const values = ['Spacious apartment in the city center', 4, 2153];
+// for (const keys in apartment) {
+// }
+// for (const values in apartment) {
+// }
+
+
+
+
+// const keys = [];
+// const values = [];
+// const advert = {
+//   service: "apt",
+// };
+// const apartment = Object.create(advert);
+// apartment.descr = "Spacious apartment in the city center";
+// apartment.rating = 4;
+// apartment.price = 2153;
+
+// for (const key in apartment) {
+//  if (apartment.hasOwnProperty(key)) {
+ 
+//   keys.push(key);
+//   values.push(apartment[key]);
+//  }
+// }
+
+
+
+
+// function countProps(object) {
+//   let propCount = 0;
+  
+// for (const key in object) {
+//   if (object.hasOwnProperty(key)){
+//     propCount += 1;
+//   }
+// }
+//   return propCount;
+// }
+
+
+
+
+// const apartment = {
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+// };
+// const values = [];
+// // Change code below this line
+// const keys = Object.keys(apartment);
+// for (const key of keys) {
+//  values.push(apartment[key]);
+// }
+
+
+
+
+// function countProps(object) {
+//   let propCount = 0;
+//   let keys = Object.keys(object);
+//   for (let key of keys) {
+//     propCount += 1;
+//   }
+//   return propCount;
+// }
+
+
+
+
+// const apartment = {
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+// };
+// const keys = Object.keys(apartment);
+// const values = Object.values(apartment);
+
+
+
+// function countTotalSalary(salaries) {
+//   let totalSalary = 0;
+//   const values = Object.values(salaries)
+// for (const value of values) {
+//   totalSalary += value;
+// }
+//   return totalSalary;
+// }
+
+
+
+
+// const colors = [
+//   { hex: '#f44336', rgb: '244,67,54' },
+//   { hex: '#2196f3', rgb: '33,150,243' },
+//   { hex: '#4caf50', rgb: '76,175,80' },
+//   { hex: '#ffeb3b', rgb: '255,235,59' },
+// ];
+
+// const hexColors = ["#f44336", "#2196f3", "#4caf50", "#ffeb3b"];
+// const rgbColors = [];
+// for (const color of colors) {
+//   if (color.name === 'hex') {
+//     hexColors.push(color.hex)
+//   } else (color.name ==='rgb')
+//   rgbColors.push(color.rgb)
+//   }
+
+
+
+
+// const products = [
+//   { name: 'Radar', price: 1300, quantity: 4 },
+//   { name: 'Scanner', price: 2700, quantity: 3 },
+//   { name: 'Droid', price: 400, quantity: 7 },
+//   { name: 'Grip', price: 1200, quantity: 9 },
+// ];
+
+// function getProductPrice(productName) {
+// for(const product of products){
+//   if (product["name"] === productName){
+//   return product["price"];
+//   }
+//   }
+//  return null;
+// }
+
+
+
+
+// const products = [
+//   { name: "Radar", price: 1300, quantity: 4 },
+//   { name: "Scanner", price: 2700, quantity: 3 },
+//   { name: "Droid", price: 400, quantity: 7 },
+//   { name: "Grip", price: 1200, quantity: 9 },
+// ];
+// function getAllPropValues(propName) {
+//   const value = [];
+//   for (const product of products) {
+//     value.push(product[propName]);
+//     if (!product[propName]) {
+//       return [];
+//     }
+//   }
+//   return value;
+// }
+// console.log(getAllPropValues("name"));
+// console.log(getAllPropValues("quantity"));
+// console.log(getAllPropValues("price"));
+// console.log(getAllPropValues("category"));
+
+
+
+
+// const products = [
+//   { name: 'Radar', price: 1300, quantity: 4 },
+//   { name: 'Scanner', price: 2700, quantity: 3 },
+//   { name: 'Droid', price: 400, quantity: 7 },
+//   { name: 'Grip', price: 1200, quantity: 9 },
+// ];
+
+// function calculateTotalPrice(productName) {
+//  let = totalPrice = 0;
+//   for (const product of products) {
+//     if (product['name'] === productName) {
+//       totalPrice = product['price'] * product['quantity'];
+//     }
+//   } 
+//     return  totalPrice; 
+// }
+
+
+
+
+// const highTemperatures = {
+//   yesterday: 28,
+//   today: 26,
+//   tomorrow: 33,
+// };
+// const { yesterday, today, tomorrow } = highTemperatures;
+// const meanTemperature = (yesterday + today + tomorrow) / 3;
+
+
+
+
+// const highTemperatures = {
+//   yesterday: 28,
+//   today: 26,
+//   tomorrow: 33,
+// };
+// const { yesterday, today, tomorrow, icon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg" } = highTemperatures;
+// const meanTemperature = (yesterday + today + tomorrow) / 3;
+
+
+
+
+
+// const highTemperatures = {
+//   yesterday: 28,
+//   today: 26,
+//   tomorrow: 33,
+// };
+// const { yesterday: highYesterday, today: highToday, tomorrow: highTomorrow, icon: highIcon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg" } = highTemperatures;
+// const meanTemperature = (highYesterday + highToday + highTomorrow) / 3;
+
+
+
+
+// const colors = [
+//   { hex: '#f44336', rgb: '244,67,54' },
+//   { hex: '#2196f3', rgb: '33,150,243' },
+//   { hex: '#4caf50', rgb: '76,175,80' },
+//   { hex: '#ffeb3b', rgb: '255,235,59' },
+// ];
+
+// const hexColors = [];
+// const rgbColors = [];
+
+// for (const {hex, rgb} of colors) {
+//   hexColors.push(hex);
+//   rgbColors.push(rgb);
+// }
+
+
+
+
+// const forecast = {
+//   today: {
+//     low: 28,
+//     high: 32,
+//     icon: 'https://www.flaticon.com/svg/static/icons/svg/861/861059.svg',
+//   },
+//   tomorrow: {
+//     low: 27,
+//     high: 31,
+//   },
+// };
+
+// const {
+//   today: {low: lowToday, high: highToday, icon: todayIcon = 'https://www.flaticon.com/svg/static/icons/svg/861/861059.svg'},
+//    tomorrow: {low: lowTomorrow, high: highTomorrow, icon: tomorrowIcon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg"}
+// } = forecast;
+
+
+
+
+// function calculateMeanTemperature(forecast) {
+      
+//   const {
+//   today: {low: todayLow, high: todayHigh},
+//    tomorrow: {low: tomorrowLow, high: tomorrowHigh}
+// } = forecast;
+
+//   return (todayLow + todayHigh + tomorrowLow + tomorrowHigh) / 4;
+// }
+
+
+
+
+// const scores = [89, 64, 42, 17, 93, 51, 26];
+// const bestScore = Math.max(...scores);
+// const worstScore = Math.min(...scores);
+
+
+
+
+// const firstGroupScores = [64, 42, 93];
+// const secondGroupScores = [89, 14, 51, 26];
+// const thirdGroupScores = [29, 47, 18, 97, 81];
+// const allScores = [...firstGroupScores, ...secondGroupScores, ...thirdGroupScores];
+// const bestScore = Math.max(...allScores);
+// const worstScore = Math.min(...allScores);
+
+
+
+
+// const defaultSettings = {
+//   theme: 'light',
+//   public: true,
+//   withPassword: false,
+//   minNumberOfQuestions: 10,
+//   timePerQuestion: 60,
+// };
+// const overrideSettings = {
+//   public: false,
+//   withPassword: true,
+//   timePerQuestion: 30,
+// };
+// const finalSettings = {...defaultSettings, ...overrideSettings};
+
+
+
+
+// function makeTask(data) {
+//   const final = {
+//   category:category = 'General',
+//   priority:priority = 'Normal',
+//   completed:completed = false,
+//   ...data
+//   }
+//   return final;
+// }
+
+
+
+
+// function add(...args) {
+//  let total = 0;
+//   for (let arg of args) {
+//     total += arg;
+//   }
+//   return total;
+// }
+// console.log(add(15, 27))
+// console.log(add(12, 4, 11, 48))
+// console.log(add(32, 6, 13, 19, 8))
+// console.log(add(74, 11, 62, 46, 12, 36))
+// console.log(add(74, 11, 62, 46, 12, 36))
+
+
+
+
+// function addOverNum(firstNumber, ...args) {
+//     let total = 0;
+//     for (const arg of args) {
+//         if (arg > firstNumber) {
+//             total += arg;
+//         }
+//     }
+//     return total;
+// }
+
+
+
+
+// function findMatches(args, ...otherArgs) {
+//   const matches = []; 
+//      for (i = 0; i < otherArgs.length; i += 1) {
+//          if (args.includes(otherArgs[i])) {
+//            matches.push(otherArgs[i]);
+//          }
+//        }
+//   return matches;
+// }
+
+
+
+
+// const bookShelf = {
+
+//   books: ['The last kingdom', 'The guardian of dreams'],
+//   getBooks() {
+//     return 'Returning all books';
+//   },
+//   addBook(bookName) {
+//     return `Adding book ${bookName}`;
+//   },
+//   removeBook(bookName) {
+//   return `Deleting book ${bookName}`
+//   },
+//   updateBook(oldName, newName) {
+//   return`Updating book ${oldName} to ${newName}`
+//   }
+
+// };
+
+
+
+
+// const bookShelf = {
+//   books: ['The last kingdom', 'Haze', 'The guardian of dreams'],
+//   updateBook(oldName, newName) {
+//  let oldNameIndex = this.books.indexOf(oldName);
+//     if (oldNameIndex >= 0) {
+//       this.books.splice(oldNameIndex, 1, newName)
+//     }
+//     console.log(this.books);
+//     return this.books
+//   }
+// }
+
+
+
+
+// const atTheOldToad = {
+// potions: []
+// }
+
+
+
+
+// const atTheOldToad = {
+// potions: ['Speed potion', 'Dragon breath', 'Stone skin'],
+//   getPotions() {
+//   return this.potions
+//   }
+// }
+
+
+
+
+// const atTheOldToad = {
+//   potions: ['Speed potion', 'Dragon breath', 'Stone skin'],
+//   addPotion(potionName) {
+//   this.potions.push(potionName);
+//   }
+// }
+
+
+
+
+// const atTheOldToad = {
+//   potions: ["Speed potion", "Dragon breath", "Stone skin"],
+//   removePotion(potionName) {
+//   this.potions.splice(this.potions.indexOf(potionName), 1); 
+//   }
+// }
+
+
+
+
+// const atTheOldToad = {
+//   potions: ['Speed potion', 'Dragon breath', 'Stone skin'],
+//   updatePotionName(oldName, newName) {      this.potions.splice(this.potions.indexOf(oldName),1,newName);
+//   }
+// }
+
+
+
+
+// const atTheOldToad = {
+//   potions: [
+//     { name: 'Speed potion', price: 460 },
+//     { name: 'Dragon breath', price: 780 },
+//     { name: 'Stone skin', price: 520 },
+//   ],
+//   // Change code below this line
+//   getPotions() {
+//     return this.potions;
+//   },
+//   addPotion(potionName) {
+//     for(const potion of this.potions) {
+//     if (potion ===this.potionName) {
+//       return `Potion ${potionName} is already equipped!`;
+//     }
+//       }
+//     this.potions.push(potionName);
+//   },
+//   removePotion(potionName) {
+//     const { potions } = this;
+//     for (const potion of potions) {
+//       if (potion.name === potionName) {
+//         potions.splice(potions.indexOf(potion), 1);
+//         return potion;
+//       }
+//     }
+//     return `Potion ${potionName} is not in inventory!`;
+//   },
+//   updatePotionName(oldName, newName) {   
+// const { potions } = this;
+//     for (const potion of potions) {
+//       if (potion.name === oldName) {
+//         potion.name = newName
+//         ;
+//         return potion;
+//       }
+//     }
+//     return `Potion ${oldName} is not in inventory!`;
+//   },
+//   // Change code above this line
+// };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
