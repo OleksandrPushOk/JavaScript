@@ -14,3 +14,6 @@
 // import './tasks/module-2.js'
 // import './tasks/module-3.js'
 
+
+import './practice.js'
+
